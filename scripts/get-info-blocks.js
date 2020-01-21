@@ -52,6 +52,22 @@ function createInfo(infoData) {
       block.appendChild(text);
     }
 
+    //add content
+    if (infoData[i].class === "content") {
+      const text = document.createElement("div");
+      content.className = "content";
+      content.innerHTML = infoData[i].content;
+      block.appendChild(content);
+    }
+
+    //add description
+    if (infoData[i].class === "description") {
+      const text = document.createElement("div");
+      description.className = "content";
+      description.innerHTML = infoData[i].description;
+      block.appendChild(description);
+    }
+
     infoWrapper.appendChild(block);
 
   }

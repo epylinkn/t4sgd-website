@@ -3,10 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="base.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body class="home">
-    <h1>Tech for Social Good Day <br> </h1>
+    <h1> Placeholder title<br> </h1>
+
+    <div class="poster">
+      <img class="center" src="/images/T4SGDay.png"/>
+    </div>
 
     <p>Intro to T4SGD<br>
     </p>
@@ -17,6 +21,7 @@
     <a class="fullwidth" href="pages/schedule.html">Schedule</a>
     <a class="fullwidth" href="pages/about.html">About</a>
     <a class="fullwidth" href="pages/attending.html">Attending</a>
+    <a class="fullwidth" href="pages/sessions.html">Sessions</a>
 
     <h4>All about this event:</h4>
     <div id="info-blocks">
@@ -60,14 +65,14 @@
             block.target = "_blank";
           }
 
-          if (infoData[i].class === "Channel") {
-            block = document.createElement("a");
-            block.className = "channel";
-            block.href = `https://are.na/${infoData[i].user.slug}/${infoData[i].slug}`;
-            block.target = "_blank";
-
-            console.log("channel appears");
-          }
+          // if (infoData[i].class === "Channel") {
+          //   block = document.createElement("a");
+          //   block.className = "channel";
+          //   block.href = `https://are.na/${infoData[i].user.slug}/${infoData[i].slug}`;
+          //   block.target = "_blank";
+          //
+          //   console.log("channel appears");
+          // }
 
           //create image
           if (infoData[i].image && infoData[i].image) {
@@ -76,13 +81,13 @@
             image.src = infoData[i].image.square.url;
             block.appendChild(image);
           }
-          //create title
-          if (infoData[i].title) {
-            const title = document.createElement("div");
-            title.className = "title";
-            title.innerHTML = infoData[i].title;
-            block.appendChild(title);
-          }
+          // //create title
+          // if (infoData[i].title) {
+          //   const title = document.createElement("div");
+          //   title.className = "title";
+          //   title.innerHTML = infoData[i].title;
+          //   block.appendChild(title);
+          // }
 
           //create text
           if (infoData[i].class === "Text") {
