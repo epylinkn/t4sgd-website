@@ -3,8 +3,6 @@
 /////// Generic block getting from a channel ///////
 ///////////////////////////////////////////////////
 
-
-
 function createInfo(infoData) {
 
   for (let i=0; i<infoData.length; i++) {
