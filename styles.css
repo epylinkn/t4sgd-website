@@ -7,29 +7,128 @@ html {
 body {
   background: blue;
   color: white;
-  font-family: violet;
   padding: 20px;
   width: 100%;
   margin: 0;
   word-break: break-word;
-
-
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 26.4px;
 }
 
 .home{
-  background: #C3E9DA;
+  background: #B9EAD9;
   padding: 0px;
 
 }
 
 img {
-    max-width:80%;
+    max-width:50%;
     height:auto;
     align-content: center;
-    border-style: solid;
-    border-width: 4px;
-    border-color: black;
 }
+
+
+.spacer{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 1000px;
+  max-width:20%;
+}
+
+.page-links{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50%;
+  max-width:30%;
+}
+
+.description{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80%;
+  max-width:50%;
+}
+
+.poster{
+  width: 100%;
+  display: block;
+  position: relative;
+  padding-top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.wires1{
+  position: fixed;
+  width: 100%;
+  display: block;
+  right: -3%;
+  top: 80%;
+  max-width: 20%;
+}
+
+.wires2{
+  position: fixed;
+  width: 100%;
+  display: block;
+  left: -5%;
+  top: 65%;
+  max-width: 40%;
+}
+
+.wires3{
+  position: fixed;
+  width: 100%;
+  display: block;
+  left: -6%;
+  top: 20%;
+  max-width: 50%;
+}
+
+.wires4{
+  position: fixed;
+  width: 100%;
+  display: block;
+  left: -10%;
+  top: 1%;
+  max-width: 40%;
+}
+
+.wires5{
+  position: fixed;
+  width: 100%;
+  display: block;
+  right: -10%;
+  top: 20%;
+  max-width: 30%;
+}
+
+.wires6{
+  position: fixed;
+  width: 100%;
+  display: block;
+  right: -5%;
+  top: -2%;
+  max-width: 40%;
+}
+
+.wires7{
+  position: fixed;
+  width: 100%;
+  display: block;
+  right: -1%;
+  top: 10%;
+  max-width: 50%;
+}
+
 
 .center {
   display: block;
