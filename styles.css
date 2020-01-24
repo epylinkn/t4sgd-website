@@ -205,12 +205,17 @@ a:link {
   color: black;
 }
 
+/* visited */
+a:visited {
+  color: black;
+}
+
 /* hovering */
 a:hover {
   color: #D359B4;
 }
 
-/* visited */
-a:visited {
-  color: #D359B4;
+/*** UTILITIES ***/
+.text-center {
+  text-align: center;
 }
