@@ -5,8 +5,8 @@ html {
 }
 
 body {
-  background: blue;
-  color: white;
+  background: #B9EAD9;
+  color: black;
   padding: 20px;
   width: 100%;
   margin: 0;
@@ -22,7 +22,6 @@ body {
 .home{
   background: #B9EAD9;
   padding: 0px;
-
 }
 
 img {
@@ -36,7 +35,7 @@ img {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  top: 1000px;
+  padding-top: 35%;
   max-width:20%;
 }
 
@@ -44,15 +43,25 @@ img {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50%;
-  max-width:30%;
+  padding-top: 40%;
+  max-width:50%;
+  font-size: 40px;
+}
+
+.session-links{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20%;
+  max-width:40%;
+  font-size: 40px;
 }
 
 .description{
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 80%;
+  padding-top: 30%;
   max-width:50%;
 }
 
@@ -129,6 +138,15 @@ img {
   max-width: 50%;
 }
 
+.wires8{
+  position: fixed;
+  width: 100%;
+  display: block;
+  left: -1%;
+  top: 80%;
+  max-width: 50%;
+}
+
 
 .center {
   display: block;
@@ -137,18 +155,39 @@ img {
   width: 80%;
 }
 
+
 body.sessions{
-  border-style: solid;
-  padding: 20px;
+  margin: 10px;
   width: auto;
-
 }
 
-.title{
-  background: pink;
-  padding: 20px;
+
+.title {
+  background-color: black;
+  padding: 0px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #D359B4;
 }
 
-.text{
-  background: orange;
+.text {
+  background: white;
+  border: solid;
+  padding: 5px;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* hovering */
+a:hover {
+  color: #E88F3F;
+}
+
+/* visited */
+a:visited {
+  color: #D359B4;
 }
