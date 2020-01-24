@@ -19,6 +19,8 @@ body {
   line-height: 26.4px;
 }
 
+
+
 .home{
   background: #B9EAD9;
   padding: 0px;
@@ -29,6 +31,27 @@ img {
     height:auto;
     align-content: center;
 }
+
+
+.attending{
+  position: relative;
+  max-width: 50%;
+  padding-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.about{
+  position: relative;
+  max-width: 50%;
+  padding-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 
 
 .spacer{
@@ -52,7 +75,7 @@ img {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20%;
+  padding-top: 10%;
   max-width:40%;
   font-size: 40px;
 }
@@ -69,7 +92,7 @@ img {
   width: 100%;
   display: block;
   position: relative;
-  padding-top: 25%;
+  padding-top: 20%;
   margin-left: auto;
   margin-right: auto;
 
@@ -89,7 +112,7 @@ img {
   width: 100%;
   display: block;
   left: -5%;
-  top: 65%;
+  top: 80%;
   max-width: 40%;
 }
 
@@ -116,7 +139,7 @@ img {
   width: 100%;
   display: block;
   right: -10%;
-  top: 20%;
+  top: 15%;
   max-width: 30%;
 }
 
@@ -125,7 +148,7 @@ img {
   width: 100%;
   display: block;
   right: -5%;
-  top: -2%;
+  top: -18%;
   max-width: 40%;
 }
 
@@ -134,7 +157,7 @@ img {
   width: 100%;
   display: block;
   right: -1%;
-  top: 10%;
+  top: -1%;
   max-width: 50%;
 }
 
@@ -184,7 +207,7 @@ a:link {
 
 /* hovering */
 a:hover {
-  color: #E88F3F;
+  color: #D359B4;
 }
 
 /* visited */
