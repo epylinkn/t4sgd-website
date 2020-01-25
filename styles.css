@@ -8,6 +8,7 @@ body {
   background: #B9EAD9;
   color: black;
   padding: 20px;
+  padding-bottom: 10vh;
   width: 100%;
   margin: 0;
   word-break: break-word;
@@ -16,14 +17,6 @@ body {
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 26.4px;
-}
-
-
-
-.home{
-  background: #B9EAD9;
-  padding: 0px;
 }
 
 img {
@@ -32,52 +25,101 @@ img {
     align-content: center;
 }
 
+/* unvisited link */
+a:link {
+  color: black;
+}
 
-.attending{
+/* visited */
+a:visited {
+  color: black;
+}
+
+/* hovering */
+a:hover {
+  color: #D359B4;
+}
+
+@media (max-width: 767.98px) {
+  h1 {
+    text-align: center;
+  }
+}
+
+/*** UTILITIES ***/
+.text-center {
+  text-align: center;
+}
+
+.list-unstyled {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.list-unstyled li {
+  display: block;
+  margin: 5px;
+  line-height: 100%;
+}
+
+/*** BLAH ***/
+.home{
+  background: #B9EAD9;
+  padding: 0px;
+}
+
+.main {
   position: relative;
-  max-width: 50%;
+  margin: 0 auto;
   padding-top: 20%;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-
-.about{
-  position: relative;
   max-width: 50%;
-  padding-top: 20%;
-  margin-left: auto;
-  margin-right: auto;
-
 }
 
-
-
-.spacer{
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 35%;
-  max-width:20%;
+@media (max-width: 767.98px) {
+  .main {
+    max-width: none;
+    padding: 20% 10%;
+  }
 }
 
-.page-links{
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 40%;
-  max-width:50%;
-  font-size: 40px;
+.page-links {
+  padding: 65vh 0 35vh;
+  font-size: 36px;
+}
+
+.page-links li {
+  display: inline-block;
+}
+
+@media (max-width: 767.98px) {
+  .page-links li {
+    display: block;
+    margin-top: 20px;
+  }
+}
+
+.sponsors li {
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .session-links{
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10%;
-  max-width:40%;
+  padding-top: 15%;
+  max-width: 40%;
   font-size: 40px;
+  line-height: 26px;
+}
+
+@media (max-width: 767.98px) {
+  .session-links {
+    max-width: none;
+    font-size: 24px;
+    line-height: 120%;
+  }
 }
 
 .description{
@@ -95,7 +137,6 @@ img {
   padding-top: 20%;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .wires1{
@@ -103,7 +144,7 @@ img {
   width: 100%;
   display: block;
   right: -3%;
-  top: 80%;
+  bottom: -10px;
   max-width: 20%;
 }
 
@@ -112,7 +153,7 @@ img {
   width: 100%;
   display: block;
   left: -5%;
-  top: 80%;
+  bottom: 1%;
   max-width: 40%;
 }
 
@@ -179,11 +220,10 @@ img {
 }
 
 
-body.sessions{
+.sessions{
   margin: 10px;
   width: auto;
 }
-
 
 .title {
   background-color: black;
@@ -198,24 +238,4 @@ body.sessions{
   background: white;
   border: solid;
   padding: 5px;
-}
-
-/* unvisited link */
-a:link {
-  color: black;
-}
-
-/* visited */
-a:visited {
-  color: black;
-}
-
-/* hovering */
-a:hover {
-  color: #D359B4;
-}
-
-/*** UTILITIES ***/
-.text-center {
-  text-align: center;
 }

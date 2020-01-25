@@ -19,5 +19,4 @@ axiosArena.get("channels/t4sgd-Attending").then(response => {
   } else {
 
   }
-
 });
