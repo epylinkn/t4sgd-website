@@ -146,6 +146,7 @@ a:hover {
   right: -3%;
   bottom: -10px;
   max-width: 20%;
+  z-index: -1;
 }
 
 .wires2{
@@ -155,6 +156,7 @@ a:hover {
   left: -5%;
   bottom: 1%;
   max-width: 40%;
+  z-index: -1;
 }
 
 .wires3{
@@ -174,6 +176,7 @@ a:hover {
   left: -10%;
   top: 1%;
   max-width: 40%;
+  z-index: -1;
 }
 
 .wires5{
@@ -183,6 +186,7 @@ a:hover {
   right: -10%;
   top: 15%;
   max-width: 30%;
+  z-index: -1;
 }
 
 .wires6{
@@ -192,6 +196,7 @@ a:hover {
   right: -5%;
   top: -18%;
   max-width: 40%;
+  z-index: -1;
 }
 
 .wires7{
@@ -201,6 +206,7 @@ a:hover {
   right: -1%;
   top: -1%;
   max-width: 50%;
+  z-index: -1;
 }
 
 .wires8{
@@ -210,6 +216,7 @@ a:hover {
   left: -1%;
   top: 80%;
   max-width: 50%;
+  z-index: -1;
 }
 
 
