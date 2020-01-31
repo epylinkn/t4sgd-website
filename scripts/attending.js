@@ -11,7 +11,7 @@ loading.innerHTML = 'loading...';
 infoWrapper.appendChild(loading);
 
 axiosArena.defaults.headers.Authorization = 'Bearer ---' ;
-axiosArena.get("channels/t4sgd-Attending").then(response => {
+axiosArena.get(`channels/t4sgd-Attending?timestamp=${new Date().getTime()}`).then(response => {
   console.log(response);
   if (response.data && response.data.contents.length > 1) {
     infoWrapper.removeChild(loading);
