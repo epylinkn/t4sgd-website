@@ -164,6 +164,7 @@ a:hover {
   left: -6%;
   top: 20%;
   max-width: 50%;
+  z-index: -1;
 }
 
 .wires4{
